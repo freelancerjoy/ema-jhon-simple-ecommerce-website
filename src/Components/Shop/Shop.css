@@ -6,10 +6,5 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    margin: 50px 80px 50px 100px;
-}
-.order-summary{
- position: fixed;
- top: 40;
- right: 100px;
+    margin: 50px;
 }
