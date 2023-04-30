@@ -1,16 +1,50 @@
-.cart{
-    background: rgba(255, 153, 0, 0.3);
-    padding: 30px;
-    position: sticky;
-    top: 0;
+.cart {
+  background: rgba(255, 153, 0, 0.3);
+  padding: 30px;
+  position: sticky;
+  top: 0;
 }
-.cart p{
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 20px;
-letter-spacing: 0.005em;
+.cart p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
 
-color: #2A414F;
+  color: #2a414f;
+}
+.clear-btn {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px auto;
+  background-color: #ff3030;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.clear-icon {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.005em;
+
+  color: #ffffff;
+}
+.procced-link {
+  text-decoration: none;
+}
+.proccesd-button {
+  padding: 10px auto;
+  width: 100%;
+  background: #ff9900;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
